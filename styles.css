@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+.navbar-container {
+    padding: 0 32px;
+    background-color: #495961;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-list-item-link {
+    padding: 8px 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+.about {
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+}
+.about-me {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+.projects {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+.contact-me {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+.nav-aboutme {
+    font-family: 'Ubuntu', sans-serif;   
+}
