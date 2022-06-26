@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ethan's Portfolio</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,22 +38,72 @@
     <section>
       <!-- <p class="nav-aboutme"> -->
       <div class="about">Hello my name is Ethan Chan</div>
-    </section>
-    <section>
+      
       <h2 class="about-me">About me</h2>
-      <div class="personal-info">I am a 13 year old boy that lives in San Diego.  I play tennis and golf and like to play videogames such as Valorent </div>
+      <div class="personal-info">I am a 13 year old boy that lives in San Diego. I play tennis and golf and like to play
+        video games such as Valorant for fun.</div>
     </section>
 
 
-    <section>
-      <h3 class="projects">Projects</h3> 
+    <section class="project-list">
+      <h3 class="projects">Projects</h3>
+      <div class="card bg-info" style="width: 18rem;">
+        <img src="./assets/image/profile-sample-image.png" class="card-img-top" alt="Ethan's Portfolio">
+        <div class="card-body">
+          <h5 class="card-title">Ethan's Portfolio</h5>
+          <p class="card-text">Ethan's Portfolio</p>
+          <a href="https://ethanc64.github.io/Ethans-Portfolio/" class="btn btn-primary">Deploy Page: Ethan's Portfolio</a>
+          <a href="https://github.com/EthanC64/Ethans-Portfolio" class="btn btn-primary">Repository: Ethan's Portfolio</a>
+        </div>
+      </div>
+
+      <div class="card bg-info" style="width: 18rem;">
+        <img src="./assets/image/tictactoe.png" class="card-img-top" alt="My Github">
+        <div class="card-body">
+          <h5 class="card-title">Tic Tac Toe</h5>
+          <p class="card-text">Tic Tac Toe</p>
+          <a href="https://ethanc64.github.io/tictactoe/" target="_blank class" class="btn btn-primary">Deploy Page: Tic Tac Toe</a>
+          <a href="https://github.com/EthanC64/tictactoe" target="_blank class" class="btn btn-primary">Repository: Tic Tac Toe</a>
+        </div>
+      </div>
+
+      <div class="card bg-info Guess-a-Number-1-1000" style="width: 18rem;">
+        <img src="./assets/image/1-1000.png" class="card-img-top" alt="Guess a Number 1-1000">
+        <div class="card-body">
+          <h5 class="card-title">Guess a Number 1-1000</h5>
+          <p class="card-text">Guess a Number 1-1000</p>
+          <a href="https://ethanc64.github.io/guess-a-number-1-1000/" target="_blank" class="btn btn-primary">Deploy Page: Guess a Number 1-1000</a>
+          <a href="https://github.com/EthanC64/guess-a-number-1-1000" target="_blank" class="btn btn-primary">Repository: Guess a Number 1-1000</a>
+        </div>
+      </div>
+
+      <div class="card bg-info Hangman" style="width: 18rem;">
+        <img src="./assets/image/hangmnan.png" class="card-img-top" alt="Hangman">
+        <div class="card-body">
+          <h5 class="card-title">Hangman</h5>
+          <p class="card-text">Hangman</p>
+          <a href="https://ethanc64.github.io/hangman/" target="_blank" class="btn btn-primary">Deploy Page: Hangman</a>
+          <a href="https://github.com/EthanC64/hangman" target="_blank" class="btn btn-primary">Repository: Hangman</a>
+        </div>
+      </div>
     </section>
-  
+
 
     <h4 class="contact-me">Contact Me</h4>
     <p class="email">Gmail: 64redbrick@gmail.com</p>
-    <p class="Git-Hub">Github:<a href="https://github.com/EthanC64">My Github Profile</a></p>
-  
+
+    <p class="Git-Hub">
+    <div class="card bg-info" style="width: 18rem;">
+      <img src="./assets/image/githublogo.svg" class="card-img-top" alt="My Github">
+      <div class="card-body">
+        <h5 class="card-title">My Github</h5>
+        <p class="card-text">My Github and my projects</p>
+        <a href="https://github.com/EthanC64/" class="btn btn-primary">My Github</a>
+      </div>
+
+    </div>
+    </p>
+
   </main>
 
 
@@ -59,5 +112,7 @@
 
   </p>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 </html>
