@@ -7,7 +7,7 @@ body {
 }
 .navbar-container {
   padding: 0 32px;
-  background-color: #495961;
+  background-color: #575f63;
 }
 .navbar {
   display: flex;
@@ -24,6 +24,12 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 24px;
 }
+.logo{
+  color: white;
+}
+
+
+
 
 .about {
   font-size: 32px;

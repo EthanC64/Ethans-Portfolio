@@ -39,21 +39,52 @@
       <!-- <p class="nav-aboutme"> -->
       <div class="about">Hello my name is Ethan Chan</div>
       
-      <h2 class="about-me">About me</h2>
-      <div class="personal-info">I am a 13 year old boy that lives in San Diego. I play tennis and golf and like to play
-        video games such as Valorant for fun.</div>
+      <h2 class="about-me"><b>About me</b></h2>
+      <div class="personal-info" style="color:rgb(255, 255, 255);">I am a 13 year old boy that lives in San Diego. I play tennis and golf and like to play
+        video games such as Valorant for fun.
+        <p>
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Click here for images
+          </button>
+        </p>
+        <div style="min-height: 120px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;" >
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/image/valorant.jpg" class="d-block w-100" alt="valorant">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/image/tennis.jpg" class="d-block w-100" alt="tennis">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/image/golf.jpg" class="d-block w-100" alt="golf">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div></div>
     </section>
 
-
+    <h3 class="projects"><b>Projects:</b></h3>
     <section class="project-list">
-      <h3 class="projects">Projects</h3>
       <div class="card bg-info" style="width: 18rem;">
         <img src="./assets/image/profile-sample-image.png" class="card-img-top" alt="Ethan's Portfolio">
         <div class="card-body">
           <h5 class="card-title">Ethan's Portfolio</h5>
           <p class="card-text">Ethan's Portfolio</p>
-          <a href="https://ethanc64.github.io/Ethans-Portfolio/" class="btn btn-primary">Deploy Page: Ethan's Portfolio</a>
-          <a href="https://github.com/EthanC64/Ethans-Portfolio" class="btn btn-primary">Repository: Ethan's Portfolio</a>
+          <a href="https://ethanc64.github.io/Ethans-Portfolio/" target="_blank" class="btn btn-primary">Deploy Page: Ethan's Portfolio</a>
+          <a href="https://github.com/EthanC64/Ethans-Portfolio" target="_blank" class="btn btn-primary">Repository: Ethan's Portfolio</a>
         </div>
       </div>
 
@@ -89,8 +120,9 @@
     </section>
 
 
-    <h4 class="contact-me">Contact Me</h4>
-    <p class="email">Gmail: 64redbrick@gmail.com</p>
+    <h4 class="contact-me">Contact Me:</h4>
+    <p class="email" style="color:rgb(255, 255, 255);">Gmail: 64redbrick@gmail.com</p>
+    <p2 class="email" style="color:rgb(255, 255, 255);">Slack member ID: U033WH1TYM9</p2>
 
     <p class="Git-Hub">
     <div class="card bg-info" style="width: 18rem;">
@@ -98,7 +130,7 @@
       <div class="card-body">
         <h5 class="card-title">My Github</h5>
         <p class="card-text">My Github and my projects</p>
-        <a href="https://github.com/EthanC64/" class="btn btn-primary">My Github</a>
+        <a href="https://github.com/EthanC64/" target="_blank" class="btn btn-primary">My Github</a>
       </div>
 
     </div>
